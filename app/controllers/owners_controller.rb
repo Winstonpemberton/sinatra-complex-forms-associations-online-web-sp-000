@@ -19,13 +19,19 @@ class OwnersController < ApplicationController
   end
 
   get '/owners/:id/edit' do
+<<<<<<< HEAD
     @pets = Pet.all
+=======
+>>>>>>> b23e944bdd3f2b945a21de34ec780d376fdf64f7
     @owner = Owner.find(params[:id])
     erb :'/owners/edit'
   end
 
   get '/owners/:id' do
+<<<<<<< HEAD
     @pets = Pet.all
+=======
+>>>>>>> b23e944bdd3f2b945a21de34ec780d376fdf64f7
     @owner = Owner.find(params[:id])
     erb :'/owners/show'
   end
